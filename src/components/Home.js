@@ -7,7 +7,7 @@ const Home = () => {
     <div>
       <h1>Welcome to Stranger's Things!</h1>
       <button>
-        <Link to="/posts/create-post">
+        <Link to="/posts/create-post" style={{ textDecoration: "none" }}>
           <Button variant="contained">Add a Post</Button>
         </Link>
       </button>
